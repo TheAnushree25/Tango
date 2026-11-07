@@ -1,0 +1,9 @@
+{
+  "name": "commentary-voice",
+  "private": true,
+  "type": "module",
+  "description": "Speaks the commentary stems. Kept apart from the site because the speech libraries are close to 1 GB.",
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2"
+  }
+}

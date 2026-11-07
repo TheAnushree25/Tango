@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment files: never commit secrets. Add a .env.example if the site ever needs settings.
+.env
+.env.*
+!.env.example
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local AI assistant settings
+.claude/
+
+# Asset pipeline working files. The finished assets live in /public.
+tools/atlas/work/
+tools/atlas/models/
+tools/render/frames/
+tools/audio/work/
+tools/audio/spectrum_*.png
+
+# Unretouched source images: large, and they still have the marks the atlas step removes.
+tools/atlas/src/
+
+# Local build report: it holds machine paths and private notes.
+The-Last-Tempo-Build-Report*.pdf

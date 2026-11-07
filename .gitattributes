@@ -1,0 +1,13 @@
+# Text files use LF in the repository and on every checkout, so diffs stay clean across Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Media is stored as-is, and never diffed or merged as text.
+*.mp3 binary
+*.mp4 binary
+*.wav binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff2 binary
+*.pdf binary

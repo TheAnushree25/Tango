@@ -1,0 +1,12 @@
+{
+  "name": "the-last-tempo-tools",
+  "private": true,
+  "description": "Asset pipelines for the site. Not needed to run or build it. Install with: npm run assets:install",
+  "dependencies": {
+    "@gradio/client": "^2.7.2",
+    "ffmpeg-static": "^5.3.0",
+    "onnxruntime-node": "^1.31.1",
+    "sharp": "^0.35.5",
+    "ws": "^8.22.1"
+  }
+}

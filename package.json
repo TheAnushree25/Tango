@@ -1,0 +1,50 @@
+{
+  "name": "the-last-tempo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A cinematic, single-screen football tribute drawn as point clouds. Next.js, Three.js, GSAP, Lenis and Howler. All content is placeholder.",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAnushree25/Tango.git"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "assets:install": "cd tools && npm install",
+    "assets:audio": "node tools/audio/synth.mjs",
+    "assets:voice": "cd tools/audio/commentary && npm install && node generate.mjs",
+    "assets:atlas": "node tools/atlas/build-atlas.mjs",
+    "assets:render": "node tools/render/server.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.1",
+    "howler": "^2.2.4",
+    "lenis": "^1.3.27",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/howler": "^2.2.13",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.5",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.3"
+  }
+}
